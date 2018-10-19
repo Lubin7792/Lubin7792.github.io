@@ -100,9 +100,11 @@ background-color: #eaeaea;
 .end{
     width: 100%;
     text-align-last: center;
-    margin: 20px;
+    margin-bottom: 20px;
 }
-
+.end span{
+padding: 10px;
+}
 @media only screen and (max-width: 767px) {
   .nav-tabs li {
     width: 100%;
