@@ -1,0 +1,78 @@
+body {
+  font-weight: 500;
+  font-size: 1.05em;
+  font-family: "Microsoft YaHei", "Segoe UI", "Lucida Grande", Helvetica, Arial,
+    sans-serif, FreeSans, Arimo;
+}
+a {
+  color: #2fa0ec;
+  outline: none;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #74777b;
+  text-decoration: none;
+}
+
+.tab {
+  margin-top: 30px;
+}
+.tab .nav-tabs {
+  border: none;
+  margin-bottom: 20px;
+}
+.nav-tabs li {
+  width: 33.3333333%;
+}
+.nav-tabs li a {
+  padding: 15px 40px;
+  border: 1px solid #ededed;
+  border-top: 2px solid #ededed;
+  border-right: 0px none;
+  background-color: #5f89ff;
+  color: #fff;
+  border-radius: 0px;
+  margin-right: 0px;
+  font-weight: bold;
+  text-align: center;
+}
+.nav-tabs li a:hover {
+  border-bottom-color: #ededed;
+  border-right: 0px none;
+  background: #89a8ff;
+  color: #fff;
+}
+.nav-tabs li a i {
+  display: inline-block;
+  text-align: center;
+  margin-right: 10px;
+}
+.nav-tabs li:last-child {
+  border-right: 1px solid #ededed;
+}
+.nav-tabs li.active a,
+.nav-tabs li.active a:focus,
+.nav-tabs li.active a:hover {
+  border-top: 3px solid #5f89ff;
+  border-right: 1px solid #d3d3d3;
+  color: #444;
+}
+.tab .tab-content {
+}
+.tab .tab-content h3 {
+  margin-top: 0;
+}
+@media only screen and (max-width: 767px) {
+  .nav-tabs li {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .nav-tabs li a {
+    padding: 15px;
+  }
+  .nav-tabs li.active a,
+  .nav-tabs li.active a:focus,
+  .nav-tabs li.active a:hover {
+  }
+}
