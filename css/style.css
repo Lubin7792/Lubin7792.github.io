@@ -113,10 +113,7 @@ padding: 10px;
   .nav-tabs li a {
     padding: 15px;
   }
-  .nav-tabs li.active a,
-  .nav-tabs li.active a:focus,
-  .nav-tabs li.active a:hover {
-  }
+
 }
 
 /* .gif .replace{
