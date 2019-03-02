@@ -29,7 +29,7 @@ a:focus {
   border: 1px solid #ededed;
   border-top: 2px solid #ededed;
   border-right: 0px none;
-  background-color: #5f89ff;
+  background-color: #6ebea7;
   color: #fff;
   border-radius: 0px;
   margin-right: 0px;
@@ -39,7 +39,7 @@ a:focus {
 .nav-tabs li a:hover {
   border-bottom-color: #ededed;
   border-right: 0px none;
-  background: #89a8ff;
+  background: #6ebea7;
   color: #fff;
 }
 .nav-tabs li a i {
@@ -48,13 +48,13 @@ a:focus {
   margin-right: 10px;
 }
 .nav-tabs li:last-child {
-  border-right: 1px solid #ededed;
+  border-right: 1px solid #6ebea7;
 }
 .nav-tabs li.active a,
 .nav-tabs li.active a:focus,
 .nav-tabs li.active a:hover {
-  border-top: 3px solid #5f89ff;
-  border-right: 1px solid #d3d3d3;
+  border-top: 3px solid #6ebea7;
+  border-right: 1px solid #6ebea7;
   color: #444;
 }
 .tab .tab-content {
